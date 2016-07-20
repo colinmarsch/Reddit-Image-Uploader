@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">    
+		<meta name="author" content="Colin Marsch">
+    		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Reddit Image Uploader Options</title>
+		
+		<!--Bootstrap-->
+		<link rel="stylesheet" href="../css/options.css" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="page img-rounded">
+			<div class="col-md-6">
+				<h4 id="conImgur" class="pads">Connect Your Imgur Account: </h3>	
+				<h4 id="openImg" class="pads">Open The Image After Uploading? </h3>
+			</div>
+			<div class="col-md-6">
+				<div class="pads">
+					<button class="btn btn-default pads" role="button">Click Here to Connect!</button>
+					<div class="pad" id="radioButtons">
+						<div class="radio">
+							<label>
+								<input type="radio" name="imgOpen" id="yes" value="open">
+								Yes
+							</label>
+						</div>
+						<div class="radio">
+							<label>
+								<input type="radio" name="imgOpen" id="no" value="nothing">
+								No
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="save">
+				<button id="save" class="btn btn-success" type="submit">Save Changes</button>
+			</div>
+			<h3 id="status"></h3>
+		</div>
+	<script src="../js/options.js"></script>
+	</body>
+</html>

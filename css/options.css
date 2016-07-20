@@ -1,0 +1,20 @@
+.page {
+	left: 50%;
+	top: 25%;
+	position: absolute;
+	margin: -75px 0 0 -300px;
+	height: 300px;
+	width: 600px;
+	background-color: #CCCCCC;
+}
+.save, #status {
+	text-align: center;
+}
+.pads {
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+.pad {
+	padding-top: 45px;
+	padding-bottom: 25px;
+}
