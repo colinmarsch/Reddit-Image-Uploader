@@ -25,5 +25,5 @@
 
 	"offline_enabled": false,
 
-	"permissions": [ "contextMenus", "storage" ]
+	"permissions": [ "contextMenus", "storage", "tabs" ]
 }
