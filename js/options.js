@@ -2,10 +2,10 @@ function save_options() {
 	var showImage = document.getElementById("yes").checked;
 	chrome.storage.sync.set({
 		showImage: showImage
-	}, function() {
+	}, function () {
 		var status = document.getElementById("status");
 		status.textContent = 'Changes Saved!';
-		setTimeout(function() {
+		setTimeout(function () {
 			status.textContent = '';
 		}, 1000);
 	});
@@ -13,9 +13,9 @@ function save_options() {
 
 function restore_settings() {
 	chrome.storage.sync.get({
-		showImage : true
-	}, function(items) {
-		if(items.showImage) {
+		showImage: true
+	}, function (items) {
+		if (items.showImage) {
 			document.getElementById('yes').checked = true;
 		} else {
 			document.getElementById('no').checked = true;

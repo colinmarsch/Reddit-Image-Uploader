@@ -3,7 +3,7 @@
 	top: 25%;
 	position: absolute;
 	margin: -75px 0 0 -300px;
-	height: 300px;
+	height: 200px;
 	width: 600px;
 	background-color: #CCCCCC;
 }
@@ -11,10 +11,12 @@
 	text-align: center;
 }
 .pads {
-	padding-bottom: 25px;
-	padding-top: 25px;
+	text-align: center;
+	padding-bottom: 16px;
+	padding-top: 16px;
 }
 .pad {
-	padding-top: 45px;
-	padding-bottom: 25px;
+	text-align: center;
+	padding-top: 16px;
+	padding-bottom: 16px;
 }

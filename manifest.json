@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Reddit Image Uploader",
-	"version": "1.0",
+	"version": "0.0.1",
 	"description": "With this extension you can right click on an image and upload it directly to Reddit.",
 	"icons": { 
 		"16": "img/icon16.png",
